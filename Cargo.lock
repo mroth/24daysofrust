@@ -3,6 +3,7 @@ name = "24daysofrust"
 version = "0.0.1"
 dependencies = [
  "anymap 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "clippy 0.0.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "csv 0.14.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "docopt 0.6.72 (registry+https://github.com/rust-lang/crates.io-index)",
  "docopt_macros 0.6.72 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -66,6 +67,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "byteorder"
 version = "0.3.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "clippy"
+version = "0.0.14"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "unicode-normalization 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "color_quant"
@@ -606,6 +615,11 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "unicase"
 version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "unicode-normalization"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
